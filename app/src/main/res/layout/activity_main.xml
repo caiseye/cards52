@@ -20,14 +20,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="231dp"
-        android:layout_height="338dp"
+        android:layout_width="243dp"
+        android:layout_height="339dp"
         android:paddingTop="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_horizontal"
         app:layout_constraintEnd_toStartOf="@+id/guideline_vertical"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="@+id/guideline_vertical"
         app:layout_constraintTop_toTopOf="@+id/guideline_horizontal"
-        app:layout_constraintBottom_toBottomOf="@+id/guideline_horizontal"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintVertical_bias="0.26999998"
         app:srcCompat="@drawable/back" />
 
     <TextView
@@ -62,8 +63,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5"
-        app:layout_constraintGuide_begin="365dp" />
+        app:layout_constraintGuide_begin="320dp"
+        app:layout_constraintGuide_percent="0.5" />
 
     <TextView
         android:id="@+id/textView2"
