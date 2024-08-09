@@ -1,2 +1,2 @@
-A program that flips Trump cards one by one randomly 
+This program to flip cards one by one randomly 
 Coded by Terry Lee(caiseye@gmail.com)
